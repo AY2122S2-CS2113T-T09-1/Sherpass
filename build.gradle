@@ -34,7 +34,7 @@ application {
 }
 
 shadowJar {
-    archiveBaseName = "Sherpass"
+    archiveBaseName = "sherpass"
     archiveClassifier = null
 }
 
