@@ -67,7 +67,6 @@ it correctly and with ease. Here are some icons which we will use to convey impo
     - Show tasks (identical to the one in Task management): [`show`](#show-your-tasks-show)
     - Mark tasks as done (identical to the one in Task management):[`mark`](#mark-your-tasks-as-done-mark) 
     - Exit study session: [`leave`](#leave-the-study-session-leave)
-  - Exit program: [`bye`]()
   - Help: [`help`](#help-help)
   - Exit program: [`bye`](#exit-program-bye)
   - [Saving your tasks](#saving-your-tasks)
@@ -345,9 +344,7 @@ Format:
 
 **Example**
 
-![weeklyTimetablePart1](images/weeklyTimetablePart1.PNG)
-
-![weeklyTimetablePart2](images/weeklyTimetablePart2.PNG)
+![weeklyTimetable](images/weeklyTimetable.PNG)
 
 
 ### Display Monthly Schedule: `show month` / `show MONTH`
