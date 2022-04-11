@@ -8,6 +8,7 @@ Optimised for use via a Command Line Interface (CLI),
 users who can type fast will be able to plan out their tasks in a much quicker fashion compared to traditional GUI apps.
 
 ### Managing your time
+
 You can add your tasks into Sherpass and get a detailed outline of your schedule. Using this schedule, you won't
 have to worry ever again about forgetting tasks and missing deadlines!
 
@@ -15,19 +16,23 @@ Sherpass also allows you to easily add recurring tasks (e.g. classes). Simply re
 more information.
 
 ### Study sessions
+
 Having trouble focusing while studying? Sherpass's study sessions allow you to select study timers, inspired by the
 increasingly popular [Pomodoro study sessions](https://examstudyexpert.com/pomodoro-study-method/), to help you keep track of the time whilst completing your tasks.
 
 #### During Study sessions
+
 Starting the study session will show you the tasks that you have planned to do for the day. You can then choose to
 start one of a few default timers provided by us, or start your own custom timer. You can also choose to start a
 stopwatch to keep track of how long you've been studying for, if you're unsure of how long you will need.
 
 #### After Study sessions
+
 After your study session, you will be prompted to mark the tasks you've completed as done. If you're still not done with
 certain tasks, feel free to start another productive session!
 
 ### User Guide Target Audience
+
 New and inexperienced users who want to use Sherpass, as well as non-users who want to know more about what Sherpass
 can do.
 
@@ -147,9 +152,11 @@ Format: `add TASK_DESCRIPTION /do DATE /start START_TIME /end END_TIME [/bydate 
 - `add cs2113t weekly quiz /do 21/6/2022 /start 16:00 /end 18:00 /bydate 25/6/2022 /bytime 16:00 /repeat WEEKLY`
 
 Before adding (current schedule of all tasks):
+
 ![](images/scheduleBeforeAddingRecurringTasksOne.png)
 
 When adding the task:
+
 ![](images/addRecurringTasksWithDeadline.png)
 
 After adding :
@@ -170,12 +177,15 @@ Format: `delete TASK_NUMBER`
 - `delete 2`
 
 Before delete command:
+
 ![](images/scheduleAfterAddingRecurringTasksOne.png)
 
 When executing delete command:
+
 ![](images/deleteSingleTask.png)
 
 After delete command:
+
 ![](images/scheduleAfterDeletingASingleTask.png)
 
 ### Deleting your recurring tasks
@@ -223,15 +233,19 @@ Format: `edit TASK_NUMBER [TASK_DESCRIPTION] [/do DATE] [/start START_TIME] [/en
 
 
 **Example**
+
 - `edit 2 write draft essay`
 
 Before edit command:
+
 ![](images/scheduleAfterDeletingASingleTask.png)
 
 When executing edit command:
+
 ![](images/editSingleTask.png)
 
 After edit command:
+
 ![](images/scheduleAfterEditingASingleTask.png)
 
 
@@ -332,6 +346,7 @@ Format:
 **Example**
 
 ![weeklyTimetablePart1](images/weeklyTimetablePart1.PNG)
+
 ![weeklyTimetablePart2](images/weeklyTimetablePart2.PNG)
 
 
@@ -409,10 +424,15 @@ Format:
 **Example**
 
 Below are some sample outputs for `clear all`, which asks a confirmation message before executing the clear:
+
 ![image](images/clear_all_confirmation.png)
+
 If the user inputs `y`:
+
 ![image](images/clear_all_execute.png)
+
 If the user inputs `n`:
+
 ![image](images/clear_all_no_execute.png)
 
 
@@ -618,6 +638,7 @@ Displays a short guide for either all the commands, or one specified command.
 Format: `help [COMMAND_WORD]`
 
 **Example**
+
 ![image](images/help_delete.png)
 
 > 💡 **Note:** Alternatively, you can enter `help quick start` for a command summary similar to the one in this document.
@@ -629,6 +650,7 @@ Exits the program.
 Format: `bye`
 
 **Example**
+
 ![image](images/bye.png)
 
 ### Saving your tasks
@@ -658,9 +680,7 @@ The following fields are required to correctly load a task:
 
 **Q**: My save file is corrupted, how do I resolve this?
 
-**A**: Sherpass will print an error message 
-
-containing details of the corruption (e.g., missing fields, brackets). You can either modify the save file manually to
+**A**: Sherpass will print an error message containing details of the corruption (e.g., missing fields, brackets). You can either modify the save file manually to
 rectify the problem or allow Sherpass to create a new save file. 
 
 > ⚠️ Caution: You will lose all previously saved tasks if you choose the latter!
